@@ -36,12 +36,19 @@ function week(day) {
     }    
 };
 
+
 // task 4
 function century(year) {
   return Math.ceil(year / 100);
 };
 
+
 // task 5
 function multiply(a, b){
   return a * b
+}
+
+// task 6
+function makeUpperCase(str) {
+  return str.toUpperCase();
 }
