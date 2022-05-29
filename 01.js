@@ -36,7 +36,12 @@ function week(day) {
     }    
 };
 
-// task 3
+// task 4
 function century(year) {
   return Math.ceil(year / 100);
 };
+
+// task 5
+function multiply(a, b){
+  return a * b
+}
