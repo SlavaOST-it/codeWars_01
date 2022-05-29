@@ -33,10 +33,10 @@ function week(day) {
         alert("Суббота");
     } else if (day == 7) {
         alert("Воскресенье");
-    }
-    
+    }    
 };
 
-
-
-
+// task 3
+function century(year) {
+  return Math.ceil(year / 100);
+};
